@@ -92,4 +92,5 @@ async def thnxmoo(ctx):
 	await ctx.send('Are Wah! Moo tu toh kamal hai! :-) ')
 
 
-bot.run('NzY4ODcwNzYyMjMyMDIxMDMy.X5Gwsg.MxwT_-jgFiYMPiTBV5bED5tqtJY')
+
+client.run(os.getenv('Token'))
